@@ -1,4 +1,6 @@
-﻿/* Exercise 7 Part C */
+﻿/* Exercise 7 Part C
+ * This Programme Will Tell If Y*/
+
 
 Console.Write("Is Your Triangle A Right Angle?\n");
 
@@ -32,8 +34,10 @@ while (lengthC <= 0)
         lengthC = Convert.ToDouble(Console.ReadLine());
 }
 
+//If User Enters | One Length^2 + Other Length^2 = Another Length^2 == Right Angle Triangle
 
-if (Math.Pow(lengthA, 2) + Math.Pow(lengthB, 2) == Math.Pow(lengthC, 2)) //
+
+if (Math.Pow(lengthA, 2) + Math.Pow(lengthB, 2) == Math.Pow(lengthC, 2))
 {
     Console.WriteLine("Your Triangle Is A Right Angled Triangle!");
 }
